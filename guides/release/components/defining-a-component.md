@@ -13,7 +13,7 @@ A sample component template could look like this:
 <article class="blog-post">
   <h1>{{this.title}}</h1>
   <p>{{yield}}</p>
-  <p>Edit title: {{input type="text" value=this.title}}</p>
+  <p>Edit title: <Input @type="text" @value={{this.title}} /></p>
 </article>
 ```
 
