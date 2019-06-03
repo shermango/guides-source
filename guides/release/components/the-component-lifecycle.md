@@ -54,9 +54,9 @@ you can use `didUpdateAttrs` to clear any error state that was built up from edi
   {{/each}}
 </ul>
 <fieldset>
-  <Input @name="user.name"       @value={{this.name}}       @change={{action "required"}} />
+  <Input @name="user.name" @value={{this.name}} @change={{action "required"}} />
   <Input @name="user.department" @value={{this.department}} @change={{action "required"}} />
-  <Input @name="user.email"      @value={{this.email}}      @change={{action "required"}} />
+  <Input @name="user.email" @value={{this.email}} @change={{action "required"}} />
 </fieldset>
 ```
 
