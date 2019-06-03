@@ -479,7 +479,7 @@ export default Component.extend({
 ```
 
 ```handlebars {data-filename="app/templates/components/delayed-typeahead.hbs"}
-<input @value={{this.searchValue}} @key-up={{action 'handleTyping'}}>
+<Input @value={{this.searchValue}} @key-up={{action 'handleTyping'}} />
 
 <ul>
 {{#each this.results as |result|}}
