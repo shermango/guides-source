@@ -71,7 +71,7 @@ You can also use the
 helper to create a checkbox by setting its `type`:
 
 ```handlebars
-<Input @type="checkbox" @name="isAdmin" @checked={{this.isAdmin}}>
+<Input @type="checkbox" @name="isAdmin" @checked={{this.isAdmin}} />
 ```
 
 Checkboxes support the following properties:
